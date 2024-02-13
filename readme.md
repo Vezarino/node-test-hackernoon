@@ -8,10 +8,12 @@ Main modifications are:
 5. Added alternative implementations for parallel async/await 
 
 Test machine is:
+```
 Windows 11 Pro 22H2 (Insiders)
 Intel i7-3770 (4 cores, 8 threads)
 32GB DDR3 @ 1600
 NodeJS v21.6.1
+```
 
 ```
 Test                                        Run 1       Run 2       Run 3       Best        Ratio
