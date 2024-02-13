@@ -17,13 +17,13 @@ NodeJS v21.6.1
 
 ```
 Test                                        Run 1       Run 2       Run 3       Best        Ratio
-file-async-blocking.test.mjs                1387.991ms  1392.8448ms 1377.2366ms 1377.2366ms 4.28
-file-async-parallel-exclusive.test.mjs      1189.192ms  1143.0924ms 1139.3162ms 1139.3162ms 3.54
-file-async-parallel-exclusive-v2.test.mjs   1108.9716ms 1082.2741ms 1103.2121ms 1082.2741ms 3.36
-file-async-parallel-hybrid.test.mjs         1091.7428ms 1088.0016ms 1110.343ms  1088.0016ms 3.38
-file-async-parallel-hybrid-v2.test.mjs      1184.7224ms 1196.8346ms 1206.3568ms 1184.7224ms 3.68
-file-callback-blocking.test.mjs             901.8807ms  944.4984ms  941.9223ms  901.8807ms  2.80
-file-callback-parallel.test.mjs             323.7005ms  321.9386ms  332.7479ms  321.9386ms  1.00
-file-promise-blocking.test.mjs              1424.9991ms 1494.4541ms 1465.7981ms 1424.9991ms 4.43
-file-promise-parallel.test.mjs              1076.4809ms 1089.1139ms 1159.952ms  1076.4809ms 3.34
+file-async-blocking.test.mjs                1372.827ms  1337.1928ms 1339.0852ms 1337.1928ms 4.28
+file-async-parallel-exclusive.test.mjs      1100.4154ms 1098.8374ms 1144.1009ms 1098.8374ms 3.52
+file-async-parallel-exclusive-v2.test.mjs   1037.0769ms 1090.7613ms 1067.3596ms 1037.0769ms 3.32
+file-async-parallel-hybrid.test.mjs         1071.4326ms 1072.9917ms 1087.8352ms 1071.4326ms 3.43
+file-async-parallel-hybrid-v2.test.mjs      1200.0863ms 1271.6962ms 1186.3993ms 1186.3993ms 3.80
+file-callback-blocking.test.mjs             916.1047ms  868.2095ms  899.8589ms  868.2095ms  2.78
+file-callback-parallel.test.mjs             312.2597ms  325.3225ms  323.9227ms  312.2597ms  1.00
+file-promise-blocking.test.mjs              1399.8678ms 1377.9905ms 1405.529ms  1377.9905ms 4.41
+file-promise-parallel.test.mjs              1077.2802ms 1071.1157ms 1082.8818ms 1071.1157ms 3.43
 ```
